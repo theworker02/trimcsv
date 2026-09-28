@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/trimcsv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trim digests and csv fingerprints for local integrity checks.",
+  "bin": {
+    "trimcsv": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/trimcsv.git"
+  },
+  "homepage": "https://theworker02.github.io/trimcsv/",
+  "keywords": [
+    "trim",
+    "csv",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
